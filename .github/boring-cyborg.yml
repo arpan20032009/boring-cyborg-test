@@ -1,0 +1,18 @@
+labelPRBasedOnFilePath:
+  # Add 'label1' to any changes within 'example' folder or any subfolders
+  label1:
+    - example/**/*
+  
+  # Complex: Add 'area/core' label to any change within the 'core' package
+  area/core:
+    - src/core/*
+    - src/core/**/*  
+    
+firstPRWelcomeComment: >
+  Thanks for opening this pull request! Please check out our contributing guidelines.
+
+firstPRMergeComment: >
+  Awesome work, congrats on your first merged pull request!
+
+firstIssueWelcomeComment: >
+  Thanks for opening your first issue here! Be sure to follow the issue template!
